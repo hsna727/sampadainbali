@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Open When 💌</title>
+  <style>
+    body {
+      background: #f3e8ff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+
+    h1 {
+      color: #7e22ce;
+    }
+
+    .note-button {
+      padding: 10px 20px;
+      background: #d8b4fe;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      color: #4c1d95;
+      margin-top: 10px;
+      transition: background 0.3s ease;
+    }
+
+    .note-button:hover {
+      background: #c084fc;
+    }
+
+    .note {
+      display: none;
+      margin-top: 20px;
+      padding: 15px;
+      border: 2px solid #7e22ce;
+      border-radius: 10px;
+      background: #fff;
+      color: #4c1d95;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>💌 Open When…</h1>
+
+  <button class="note-button" onclick="toggleNote('note1')">You first see this 🤪 </button>
+  <div id="note1" class="note">Hi pretty girly this seemed like a brilliant idea since I can use computer science to write little notes everyday but I don't need to give you heaps of paper meaning scary Mrs Kandel will not find them 👹 ANYWAYSSS I currently have no idea what I am trying to do but I think there shall be buttons you can click on whenever you are about to do something or a certain specific day to read a little note BUT NO CHEATING AND OPENING TOO EARLY I will find out and be Angry Ansh 😡 BUT YEAHHHHH EXCITING BALI TRIP FOR MS TRAVEL GIRLY HAVE FUNNNNNN</div>
+
+  <button class="note-button" onclick="toggleNote('note2')">You reach the hotel for the first time 🏨</button>
+  <div id="note2" class="note">Hello queen this is definitely pretty damn close in time after you press the first button but anyways I hope you enjoyed your flight and being driven around by your own personal driver lucky gal. It's probably pretty late there by the time you get to the hotel, and since your body isn't used to Bali time, you must be DEAD tired if you didn't sleep on the plane. I'm pretty sure you sent me a link of the hotel and how everything looked and I tried to find it but its deadass lost in time at this point cos we message each other sm but no complaints. </div>
+
+  <button class="note-button" onclick="toggleNote('note3')">It's Day 2 of your trip 🥳</button>
+  <div id="note3" class="note">Hi girlypop this button's third because I'm guessing you will open this third but now it'll be too random to guess what you will open in what order so I will just have all of the days in a row and then the random time ones after those. Idk what you have planned for the day but I hope you start your holiday off with a BANG (not literally) and today's a really really good and fun day. </div>
+
+  <button class="note-button" onclick="toggleNote('note4')">It's Day 3 of your trip 😝</button>
+  <div id="note4" class="note">Hello hello fine shyt it is me your boyfriend again. You will notice that a common theme here is that I have no clue wtf you will be doing on each of these days since your tour guide is handling all of that, but still he/she better do a damn good job at keeping you entertained. Actually no that isn't enough they must do a perfect job for perfect Sampada. </div>
+
+  <button class="note-button" onclick="toggleNote('note5')">It's Day 4 of your trip 😇</button>
+  <div id="note5" class="note">Hello princess, I bet you can't believe you've already had two full days go by in Bali. It defo must feel like time is going so fast with all that exploring you've been doing, I hope you are enjoying it and I hope today goes amazingly. If tour guide isn't doing a good job, you can count on me to make 492 different spam accounts and leave 1 star google reviews from each account. Have a splendid day queen 👸🏻 </div>
+
+  <button class="note-button" onclick="toggleNote('note6')">It's Day 5 of your trip 🥰</button>
+  <div id="note6" class="note">Isn't it crazy how it is now the halfway mark of your holiday 😱 I know the first half of this trip must be very fun so far but SECOND HALF GONNA BE EVEN BETTERRRR 🤘🏾 Whatever you have planned for today I hope it goes splendidly as always, it feels kinda odd saying I hope the day goes well when I have no clue what's plammed 😭 but if you want some examples then if you are planning on going to a Bali beach then I meant "I hope the water and the waves are refreshing asf and the beach isn't rocky." If you are going on a trip to the main part of the city I meant "I hope you find some very nice things to spend your dad's money on and you find really nice places to eat". If you are very spontaneously going skydiving, I meant "I hope your parachute is not faulty". Whatever it is you're gonna do I hope you have so much fun queen. </div>
+
+  <button class="note-button" onclick="toggleNote('note7')">It's Day 6 of your trip 😁</button>
+  <div id="note7" class="note">Hi my love I hope you have been loving life for the past 5 days, hopefully you continue loving it even more and the next few days are all a blast 🥳 Have another amazing day sweetiepie </div>
+
+  <button class="note-button" onclick="toggleNote('note8')">It's Day 7 of your trip 😶‍🌫️</button>
+  <div id="note8" class="note">A WHOLE WEEK IN BALI YAYYYYYY you're living the life of a tourist, I lowkey am a little concerned as I am typing this cos I have a feeling you will be sunburnt after a week there. I hope you do not though especially with the suncreen you have copped, and I hope today goes specatacularly too 🎊 </div>
+
+  <button class="note-button" onclick="toggleNote('note9')">It's Day 8 of your trip 🫨</button>
+  <div id="note9" class="note">Hello my love, day 8 today. I unfortunately do not have a crystal ball to be able to tell exactly how today goes, but as always I hope everything goes exactly how you want it to go. Enjoy whatever wild things Bali decides to throw at you, have fun gang 🫣 </div>
+
+  <button class="note-button" onclick="toggleNote('note10')">It's Day 9 of your trip 😱</button>
+  <div id="note10" class="note">HOLYYY last full day in Bali I hope this day goes amazingly for you sweetiepie, zero negativity only positivity fr. Enjoy the nice warm temperatures cos when you get back here you ain't feeling this again for a little while. Hopefully you get to cap this amazing trip off with a very nice dinner and a great fun night tonight, have fun queen!! </div>
+
+  <button class="note-button" onclick="toggleNote('note11')">It's Day 10 of your trip 🥲</button>
+  <div id="note11" class="note">Hello cutiepie isn't it wild how you are already on the last day of your trip already, I said 5 days ago that time must be flying but it defintely has gotta be hitting now that you're going to be flying back. I hope the flight goes really really well and you have lots of fun in your last moments in Bali, and if you have had a lot of fun, we can go again and you can be my tour guide 🥰 </div>
+
+  <button class="note-button" onclick="toggleNote('note12')">You take your first poop 💩 </button>
+  <div id="note12" class="note">Well I hope you do end up taking a shit. This place is meant to be where you stay for the next 9 days and goddamn I would hope you let go of some waste during that time. If it takes you a few days before your first dump, I pray for everyone's noses who's living there. Remember not to break the toilet either, I'm sure you don't wanna pay bond. </div>
+  
+  <button class="note-button" onclick="toggleNote('note13')">You can't fall asleep 😴 </button>
+  <div id="note13" class="note">I'm not gonna rule out the possibility of this but I would be a pretty surprised bf if you find yourself struggling to fall asleep after long days of being out ngl. BUTTTT if that does happen then I hope you end up dozing off soon 🥱 I'd wish for both sides of your pillow to be warm but I checked the weather and it won't be anywhere near as cold as Sydney ANDDD humid conditions too so I'd be concerned if you didn't want a cold pillow. So yes I hope both sides of your pillow do go cold and sleep hits you sooooonnnn. </div>
+
+  <button class="note-button" onclick="toggleNote('note14')">You miss me 😖</button>
+  <div id="note14" class="note">Well hello my nonchalant queen, it is not a surprise seeing you here yes believe it or not I found it hard to believe you would not miss me ONCE throughout this entire trip. I really really hope you are having fun and everything has been going well with your family, and I miss you like crazy. I'm literally typing this whilst you are still on the plane to Bali, and I already miss you. I wish to be able to travel with you for the rest of my life and I will do everything I can to make that a reality, its like a dream for me and I can't wait to spend time with each other in different countries, trying out the new food there and visiting new cities and experiencing the nightlife and snuggling together in our hotel room after long days of exploring. It's been literally a little over 24 hours since I saw you, and 3 hours since you started flying but I still miss you like crazy and I will this entire trip and whenever I see you. I wish I could keep you glued to me and we could go everywhere together, but right now that ain't possible so daydreaming about life together will have to do. I can't wait to just live life with you by my side and thank you for making my life so much better in so many ways, I couldn't possibly dream of anyone better holding my hand through everything in life. I promise it will be the two of us one day flying around the world together, then it will be us with our family and then it will end up being the old version of us, but I can't wait to make all of this a reality. I love you pretty girl and I miss you heaps, it really does suck when your gf is 4600km away (according to Google AI summary I hope that's right). It definitely is very different to something like us just not seeing each other for two weeks, and idk how I kept myself sane when you went Nepal cos rn I AM GOING INSANEEE 😵‍💫 I can't wait to see you and hug you again before scanning the area to sus out any brown uncles and aunties and then giving you a kiss if there are no spies around.</div>
+
+  <button class="note-button" onclick="toggleNote('note15')">You have very yummy food 🤤</button>
+  <div id="note15" class="note">I can't believe you, enjoying all of this yummy food whilst #1 fatty is salivating at all the pictures of scrumptious food you have been sending. I definitely am going to need you to remember some foods and places for if we go 🤓 </div>
+
+  <button class="note-button" onclick="toggleNote('note16')">You are awake and bored but I am asleep 😴</button>
+  <div id="note16" class="note">Hi my pretty girl, this would be quite an odd thing to happen if my sleep schedule hadn't gotten so much better 😭 if you are awake and bored and can't sleep and I am somehow also asleep, you should call me secretly and wake me up imo I would love to be your own personal entertainer. There is never a time I don't want to be up and just talking to you, I will always cherish and love the times when we both had deep late night talks about the most random things and even if you were to wake me up now to do it, I would do that in a heartbeat. Whether you are seeing this on night 2 or night 9 of the trip, I miss you like crazy and I hope you're having so much fun but selfish side of me wants you back here asappppppppppp </div>
+
+  <button class="note-button" onclick="toggleNote('note17')">You are mad at me 🤬</button>
+  <div id="note17" class="note">Okay this is a little difficult to do in advance since I have zero clue what you are mad about, but I know whatever reason it is, it is a very valid one. I hope you always remember that it is never my intention to ACTUALLY make you mad, although I love how cute you get when I can ragebait you, and I am sorry for how I am making you feel right now but I promise you I will do my best to learn from it and do better. I know I have not always been able to put that into words properly, or even show it, but your importance in my life is something that becomes more and more significant as each day goes by, and I want to put all of my time, effort and energy into being a better person for you. So I hope whatever I have done here I can learn from these and do a better job at avoiding this, and I am very sorry. </div>
+
+  <button class="note-button" onclick="toggleNote('note18')">You are mad at your parents 💀</button>
+  <div id="note18" class="note">Hi my sweet angel, I am so sorry to hear that your parents have been pissing you off. It isn't something I necessarily didn't expect - I still remember you being upset at your parents when you went Forster with Ravi (was that his name) and his family and the picture of you crying and the tears in your makeup being so obvious made me so sad at the time. I hope you are not like that right now, and I hope you feel much better soon. I always want to make myself available to talk to you and support you during these times, but if I am not, just remember that its how they are and always have been and just try your best to put it behind you and go have fun with Sarthak or Jen or whoever can keep you happy when you feel down like this. I love you and I hope you feel better soon. </div>
+
+  <button class="note-button" onclick="toggleNote('note19')">You get hit on 😰</button>
+  <div id="note19" class="note">Well, I am not surprised. I am dating the hottest most prettiest yummiest cutest woman. I hope you tell them to back off with steam coming out of your ears and a mean ferocious growl to scare them off more. But honestly, I respect his taste (or her), they KNOW how to pick them. Blessed with getting to see the hottest tourist in Bali fr. </div>
+
+  <button class="note-button" onclick="toggleNote('note20')">You are on a night out 🥂</button>
+  <div id="note20" class="note">Hi my delicious gorgeous girl, I hope you are having the time of your life partying and enjoying all of this in a brand new country. Keep yourself safe my gym rat, show them all what your big biceps really are for fr. I can't wait to get to experience this in different countries with you, it definitely is a part of my bucket list. Get home safe and make sure your parents think you're fine (duh but still), and party harddddd 😛 </div>
+
+
+  <a href="girlfriend-day.html" class="note-button" target="_blank">🌸 It's GIRLFRIEND'S DAYYYY 🌸</a>
+
+  <script>
+    function toggleNote(id) {
+      const note = document.getElementById(id);
+      note.style.display = (note.style.display === "block") ? "none" : "block";
+    }
+  </script>
+
+</body>
+</html>
+
+
