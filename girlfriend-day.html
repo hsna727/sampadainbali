@@ -63,21 +63,23 @@
     <img src="cuties2.jpg" alt="cutie photo" style="width: 300px; border-radius: 12px; margin-top: 20px;" />
 
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
-    <script>
-      setTimeout(() => {
-        confetti({
-          particleCount: 100,
-          spread: 100,
-          origin: { y: 0.2 },
-          shapes: ['text'],
-          scalar: 1.2,
-          ticks: 200,
-          shapes: ['🌷']
-        });
-      }, 500);
-    </script>
-    
-    
+<script>
+  function launchTulipConfetti() {
+    confetti({
+      particleCount: 250,
+      spread: 360,
+      origin: { y: 0 },
+      shapes: ['🌷'],
+      scalar: 1.8,
+      ticks: 500,
+    });
+  }
+
+  // Launch 3 rounds over 3 seconds
+  setTimeout(launchTulipConfetti, 400);
+  setTimeout(launchTulipConfetti, 1500);
+  setTimeout(launchTulipConfetti, 2600);
+</script>
 
 </body>
 </html>
